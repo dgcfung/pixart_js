@@ -4,9 +4,10 @@ For this assignment you'll be creating a Javascript painting app. When you're do
 
 Use the starter code and commit each step of the exercise.
 ## Set up
-1. Fork and clone this repo.
-2. Work in small steps and commit frequently.
-3. When you're finished, push your solution up to master (`git push origin master`) and issue a **pull request**.
+1. Fork into your account
+1. Create a feature branch
+1. Clone to your machine
+1. Pull Request when done
 
 ### Commit 1
 
