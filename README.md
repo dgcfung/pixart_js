@@ -30,12 +30,12 @@ Use the starter code and commit each step of the exercise.
 
 ### Commit 4
 
-* Add functionality so that when clicking on each "square", it changes the color of that individual square to "green"
+* Add functionality so that clicking on each square changes the color of that specific square to "green"
   * **Hint**: either add the event listener while creating the squares, or listen for events on the `body` element
 
 ### Commit 5
 
-* Modify your code so that clicking on each "square" changes its color to the color selected in the input instead of "green" every time.
+* Modify your code so that clicking on each square changes the color of that square to the color selected in the input (instead of "green").
 
 ### Commit 6
 
