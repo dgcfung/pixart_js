@@ -2,25 +2,26 @@
 
 # Pixart
 
-For this assignment you'll be creating a Javascript painting app. When you're done, [it should display this functionality](http://ga-wdi-exercises.github.io/pixart_js/).
+For this assignment you'll be creating a Javascript painting app. [Here is an example of the functionality from which this homework will build](http://ga-wdi-exercises.github.io/pixart_js/).
 
 Use the starter code and commit each step of the exercise.
+
 ## Set up
 1. Fork into your account
 1. Create a feature branch
 1. Clone to your machine
-1. Pull Request when done
+1. Make a pull request with your name as the title and keep your homework submission template updated!
 
 ### Commit 1
 
-* When I click the "Set Color" button, it should change the color of the "brush" box to the color I specify in the input field.
+* Clicking the "Set Color" button should change the color of the "brush" box to the color specified in the input field.
 * You can use `document.querySelector` (or another document method) to select the element, then add an event listener.
 
-> **HINT:** You will notice that the page refreshes whenever you click the button. You need to prevent this from happening using a method you have not used before. Google "javascript event prevent default". You can also reference [this portion](https://github.com/ga-wdi-lessons/js-events-callbacks#event-defaults-405---410-5-minutes) of the Events & Callbacks lesson plan.
+> **HINT:** You will notice that the page refreshes whenever you click the button. You need to prevent this from happening using a method you have not used before. Google "javascript event prevent default". You can also reference the Events & Callbacks section of [this lesson plan](https://git.generalassemb.ly/sei-nyc-blizzard/js-events-lesson).
 
 ### Commit 2
 
-* The same thing should happen when I press the enter key from inside the input field
+* The same thing should happen when pressing the enter key from inside the input field
 
 ### Commit 3
 
@@ -29,12 +30,12 @@ Use the starter code and commit each step of the exercise.
 
 ### Commit 4
 
-* Add functionality so that when I click on each "square", it changes the color of that individual square to "green"
+* Add functionality so that when clicking on each "square", it changes the color of that individual square to "green"
   * **Hint**: either add the event listener while creating the squares, or listen for events on the `body` element
 
 ### Commit 5
 
-* Modify your code so that when I click on each "square", it changes to the color I set using my input instead of "green" every time.
+* Modify your code so that clicking on each "square" changes its color to the color selected in the input instead of "green" every time.
 
 ### Commit 6
 
