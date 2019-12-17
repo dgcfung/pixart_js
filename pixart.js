@@ -1,6 +1,7 @@
 
 let setUpEventListeners= function(){
     check4Submission()
+    
 }
 
 
