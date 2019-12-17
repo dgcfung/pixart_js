@@ -1,7 +1,7 @@
 
 let setUpEventListeners= function(){
     check4Submission()
-    
+
 }
 
 
@@ -21,4 +21,23 @@ function changeColor(){
     console.log(getInput)
 }
 
+function appendSquares(){
+    let addSquares= document.querySelector('body')
+    
+    for (i=0; i<20; i++){
+        let item= document.createElement('div')
+        item.className= 'square'
+        console.log(item)
+        // item = document.querySelector('.square')
+        addSquares.appendChild(item)
+        // console.log(item)
+    }
+    
+}
+
+
 setUpEventListeners()
+appendSquares()
+
+
+
