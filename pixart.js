@@ -2,7 +2,9 @@
 let setUpEventListeners= function(){
     check4Submission()
 
+
 }
+
 
 
 
@@ -15,6 +17,7 @@ function check4Submission(){
 
 function changeColor(){
     event.preventDefault()
+
     let getInput = document.querySelector("#color-field").value
     let brush= document.querySelector('.brush')
     brush.style.background= getInput
@@ -31,10 +34,15 @@ function appendSquares(){
         // item = document.querySelector('.square')
         addSquares.appendChild(item)
         // console.log(item)
+        item.addEventListener('click', square2Green)
     }
     
 }
 
+function square2Green(){
+    this.style.backgroundColor= 'green'
+
+}
 
 setUpEventListeners()
 appendSquares()
