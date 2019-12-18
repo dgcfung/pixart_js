@@ -27,14 +27,14 @@ function changeColor(){
 function appendSquares(){
     let addSquares= document.querySelector('body')
     
-    for (i=0; i<20; i++){
+    for (i=0; i<8000; i++){
         let item= document.createElement('div')
         item.className= 'square'
         console.log(item)
         // item = document.querySelector('.square')
         addSquares.appendChild(item)
         // console.log(item)
-        item.addEventListener('click', square2Green)
+        item.addEventListener('mouseover', square2Green)
     }
     
 }
