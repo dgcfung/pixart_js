@@ -15,13 +15,13 @@ function check4Submission(){
     // second argument is always a function, calls changeColor() function
 }
 
+let getInput = document.querySelector("#color-field")
+
 function changeColor(){
     event.preventDefault()
-
-    let getInput = document.querySelector("#color-field").value
     let brush= document.querySelector('.brush')
-    brush.style.background= getInput
-    console.log(getInput)
+    brush.style.background= getInput.value
+    // console.log(getInput)
 }
 
 function appendSquares(){
@@ -40,7 +40,7 @@ function appendSquares(){
 }
 
 function square2Green(){
-    this.style.backgroundColor= 'green'
+    this.style.backgroundColor= getInput.value
 
 }
 
